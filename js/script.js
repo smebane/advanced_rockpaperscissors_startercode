@@ -27,4 +27,14 @@
 
 
 // DOCUMENT READY FUNCTION
-
+$(document).ready(function(){
+alert("Hi");        
+   $("#Shoot").click(function(){
+    var userChoice= $("#choice").val();
+    $("#value").text(userChoice);
+    computerChoicearray=["Mordecai","Rigby"]   
+    console.log(computerChoicearray[])
+    var num =Math.floor(Math.random()*2);
+    alert("Correct")\
+   });
+})
